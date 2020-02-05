@@ -19,7 +19,7 @@ open class BaseActivity : AppCompatActivity() {
     lateinit var preferences: SharedPreferences
     @Inject
     lateinit var editor: SharedPreferences.Editor
-    @Inject
+    @Inject 
     lateinit var userDao: UserDao
 
     override fun onCreate(savedInstanceState: Bundle?) {
